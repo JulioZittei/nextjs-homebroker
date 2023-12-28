@@ -1,0 +1,19 @@
+"use client";
+
+import { Navbar, Table, Tabs } from "flowbite-react";
+
+export * from "flowbite-react";
+
+export const TableHead = Table.Head;
+export const TableHeadCell = Table.HeadCell;
+export const TableBody = Table.Body;
+export const TableRow = Table.Row;
+export const TableCell = Table.Cell;
+
+export const NavbarBrand = Navbar.Brand;
+export const NavbarToggle = Navbar.Toggle;
+export const NavbarCollapse = Navbar.Collapse;
+export const NavbarLink = Navbar.Link;
+
+export const TabGroup = Tabs;
+export const TabItem = Tabs.Item;
