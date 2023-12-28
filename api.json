@@ -1,0 +1,107 @@
+{
+  "wallet-assets": [
+    {
+      "asset_id": "assetl",
+      "wallet_id": "wallet1",
+      "shares": "1000",
+      "created_at": "2018-01-01T00:00:00Z",
+      "updated_at": "2018-01-01T00:00: 00Z",
+      "Asset": {
+        "id": "asset1",
+        "symbol": "asset1",
+        "price": "100"
+      }
+    },
+    {
+      "asset_id": "asset2",
+      "wallet_id": "wallet1",
+      "shares": "5000",
+      "created_at": "2018-01-01T00:00: 00Z",
+      "updated _at": "2018-01-01700:00:00Z",
+      "Asset": {
+        "id": "asset1",
+        "symbol": "asset1",
+        "price": "200"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "order1",
+      "wallet_id": "wallet1",
+      "asset_id": "asset1",
+      "shares": 1000,
+      "price": 100,
+      "type": "BUY",
+      "status": "OPEN",
+      "created_at": "2018-01-0100:00:00Z",
+      "updated_at": "2018-01-0100:00: 00Z",
+      "Asset": {
+        "id": "asset1",
+        "symbol": "asset1",
+        "price": "100"
+      }
+    },
+    {
+      "id": "order2",
+      "wallet_id": "wallet1",
+      "asset_id": "asset1",
+      "shares": 500,
+      "price": 100,
+      "type": "SELL",
+      "status": "OPEN",
+      "created_at": "2018-01-0100:00:00Z",
+      "updated_at": "2018-01-0100:00: 00Z",
+      "Asset": {
+        "id": "asset1",
+        "symbol": "asset1",
+        "price": "100"
+      }
+    },
+    {
+      "shares": 2,
+      "price": 100,
+      "asset_id": "asset1",
+      "type": "BUY",
+      "status": "OPEN",
+      "created_at": 1703635561462,
+      "updated_at": 1703635561462,
+      "Asset": {
+        "id": "asset1",
+        "symbol": "PETR4",
+        "price": 30
+      },
+      "id": "zW_CWuj"
+    },
+    {
+      "shares": 5,
+      "price": 100,
+      "asset_id": "asset1",
+      "type": "BUY",
+      "status": "OPEN",
+      "created_at": 1703635587552,
+      "updated_at": 1703635587552,
+      "Asset": {
+        "id": "asset1",
+        "symbol": "PETR4",
+        "price": 30
+      },
+      "id": "Uim-jl9"
+    },
+    {
+      "shares": 3,
+      "price": 100,
+      "asset_id": "asset1",
+      "type": "BUY",
+      "status": "OPEN",
+      "created_at": 1703636023270,
+      "updated_at": 1703636023270,
+      "Asset": {
+        "id": "asset1",
+        "symbol": "PETR4",
+        "price": 30
+      },
+      "id": "LuefE_o"
+    }
+  ]
+}
